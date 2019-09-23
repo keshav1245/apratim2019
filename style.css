@@ -67,6 +67,9 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 0;
+    background: white;
+    border-bottom: 2px solid #1bb791;
+    box-shadow: 13px 26px 139px rgba(0, 0, 0, 0.1);
 }
 
 .header-bar .site-branding {
@@ -211,7 +214,6 @@ body {
         right: auto;
         height: auto;
         padding-right: 35px;
-        background: transparent;
     }
 
     .site-navigation ul {
@@ -256,8 +258,8 @@ body {
 # hero
 -----------------------------------------------------------*/
 .hero-content {
-    padding: 220px 0;
-    background: url("images/cover.jpg") no-repeat;
+    padding: 4em 0;
+    /* background: url("images/cover.jpg") no-repeat; */
     background-size: cover;
 }
 
@@ -266,6 +268,10 @@ body {
     text-align: center;
 }
 
+.hero-content img {
+    width: 70em;
+    max-width: 100%;
+}
 .hero-content .entry-header h2 {
     padding: 50px;
     margin: 0;
@@ -302,12 +308,12 @@ body {
 ## countdown
 ------------------------------------------------------------*/
 .countdown {
-    margin-top: 320px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .countdown-holder {
     min-width: 150px;
-    margin-bottom: 450px;
 }
 
 .countdown-holder .dday,
