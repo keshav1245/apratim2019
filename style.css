@@ -1,7 +1,6 @@
-html {
+html{
     scroll-behavior: smooth;
 }
-
 /*------------------------------------------------------------
 # Global classes
 ------------------------------------------------------------*/
@@ -197,11 +196,11 @@ body {
     padding-left: 40px;
 }
 
-.site-navigation ul li a:hover {
+.site-navigation ul li a:hover{
     border: 1px solid #fff;
     padding: 9px 11px;
     color: #fff;
-    transition: 0.5s;
+    transition: 0.5s;    
 }
 
 @media screen and (min-width: 992px) {
@@ -245,7 +244,7 @@ body {
         padding: 10px 12px;
     }
 
-    .site-navigation ul li a:hover {
+   .site-navigation ul li a:hover {
         color: #1C2331;
         border: 1px solid #1C2331;
         padding: 9px 11px;
@@ -273,7 +272,6 @@ body {
     width: 70em;
     max-width: 100%;
 }
-
 .hero-content .entry-header h2 {
     padding: 50px;
     margin: 0;
@@ -356,8 +354,7 @@ body {
     font-weight: 600;
 }
 
-.hero-content .entry-footer a:hover,
-.hero-content .entry-footer .current {
+.hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     color: hsl(0, 0%, 0%);
 }
@@ -368,7 +365,7 @@ body {
 .content-section {
     min-height: 4640px;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 120px;
     background: url("images/middle-cover.jpg") no-repeat;
     background-size: 100% auto;
 }
@@ -392,8 +389,14 @@ body {
 
 .lineup-artists-headline h2 {
     color: black;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.lineup-artists-headline p {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .lineup-artists-headline .entry-title p {
@@ -416,12 +419,15 @@ body {
 ------------------------------------------------------------*/
 .lineup-artists {
     padding-top: 80px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .lineup-artists .featured-image {
-    margin-right: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.lineup-artists .core-image {
+    margin: 2em;
     padding: 0;
 }
 
@@ -429,14 +435,22 @@ body {
     width: 100%;
 }
 
+.lineup-artists .core-image {
+    width: 100%;
+}
+
 .lineup-artists .featured-image img {
     width: 100%;
     max-width: 100%;
-    border-left: 3px solid #00d0ff;
-    border-right: 3px solid #00d0ff;
-    border-top: 3px solid #25ffbf;
-    border-bottom: 3px solid #25ffbf;
+    border: 2px solid #00a9b3;
 }
+
+.lineup-artists .core-image img {
+    width: 100%;
+    max-width: 100%;
+    border: 2px solid #00a9b3;
+}
+
 
 /*------------------------------------------------------------
 ### lineup-artists-wrap
@@ -701,7 +715,7 @@ body {
     margin: 0;
     position: relative;
     padding: 20px;
-    /*    justify-content: center;
+/*    justify-content: center;
     align-items: center;
     text-align: center;*/
 }
@@ -709,7 +723,7 @@ body {
 .next-event-slider .featured-image img {
     display: block;
     width: 50%;
-    /*    justify-content: center;
+/*    justify-content: center;
     text-align: center;*/
 }
 
@@ -722,7 +736,7 @@ body {
     height: 100%;
     padding: 30px;
     text-align: center;
-    background: rgba(0, 0, 0, .75);
+    background: rgba(0,0,0,.75);
     text-decoration: none;
     transition: all .5s;
     opacity: 0;
@@ -760,7 +774,7 @@ body {
     width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     .next-event-slider-wrap .swiper-button-next {
         bottom: -42px;
         width: 84px;
@@ -867,7 +881,7 @@ body {
     margin-right: 10px;
 }
 
-.home-page-last-news-wrap .eventList :hover {
+.home-page-last-news-wrap .eventList :hover{
     background-color: #ffbb33;
 }
 
@@ -984,15 +998,13 @@ body {
     transition: 0.5s;
 }
 
-.footer-social ul a i {
+.footer-social ul a i{
     transition: 0.5s;
 }
-
-.footer-social ul a i:hover {
+.footer-social ul a i:hover{
     transition: 0.5s;
-    transform: scale(2, 2);
+    transform: scale(2,2);
 }
-
 /*------------------------------------------------------------
 # about-us
 ------------------------------------------------------------*/
@@ -1005,7 +1017,8 @@ body {
 /*------------------------------------------------------------
 # site-header
 ------------------------------------------------------------*/
-.about-us .site-header {}
+.about-us .site-header {
+}
 
 .about-us .site-header figure {
     margin: 0;
@@ -1253,8 +1266,7 @@ body {
     height: 100%;
 }
 
-@media screen and (min-width: 992px) {
-
+@media screen and (min-width: 992px){
     .testimonials-container,
     .testimonial-featured-image {
         width: 50%;
@@ -1269,8 +1281,7 @@ body {
 }
 
 
-@media screen and (min-width: 1200px) {
-
+@media screen and (min-width: 1200px){
     .testimonials-container,
     .testimonial-featured-image {
         width: 50%;
@@ -1282,8 +1293,7 @@ body {
 }
 
 
-@media screen and (min-width: 1500px) {
-
+@media screen and (min-width: 1500px){
     .testimonials-container,
     .testimonial-featured-image {
         width: 50%;
@@ -1351,13 +1361,13 @@ body {
     line-height: 1.8;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px){
     .tabs .tab-nav {
         padding: 20px;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
     .tabs .tab-content {
         padding: 48px;
     }
@@ -1400,7 +1410,7 @@ body {
     color: #040608;
 }
 
-.single-event-details-row p.sold-out span {
+.single-event-details-row p.sold-out span{
     color: #ff0000;
 }
 
@@ -2021,3 +2031,11 @@ body {
 .icon-box-3 .entry-header::before {
     content: "03.";
 }
+
+
+
+
+
+
+
+
