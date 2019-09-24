@@ -321,7 +321,7 @@ body {
 .countdown-holder .dmin,
 .countdown-holder .dsec {
     display: block;
-    font-size: 72px;
+    font-size: 4rem;
     font-weight: 600;
     line-height: 1;
     /*color: hsl(0, 0%, 100%);*/
