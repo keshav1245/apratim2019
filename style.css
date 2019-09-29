@@ -370,6 +370,14 @@ body {
     background-size: 100% auto;
 }
 
+.content-section2 {
+    /*min-height: 4640px;*/
+    width: 100%;
+    padding-bottom: 120px;
+    background: url("images/middle-cover.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
 .content-section .middle-cover {
     margin: 0;
     padding: 0;
@@ -400,6 +408,12 @@ body {
 .lineup-artists-headline p {
     color: black;
     font-size: 15px;
+    font-weight: 400;
+}
+
+.lineup-artists-headline ol li {
+    color: black;
+    font-size: 12px;
     font-weight: 400;
 }
 
