@@ -405,6 +405,13 @@ body {
     font-weight: 700;
 }
 
+.lineup-artists-headline h3 {
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+
 .lineup-artists-headline p {
     color: black;
     font-size: 15px;
@@ -431,6 +438,14 @@ body {
     font-weight: 600;
     color: hsl(0, 0%, 0%);
 }
+
+.lineup-artists-headline .entry-title h3 {
+    width: 80%;
+    font-size: 36px;
+    font-weight: 400;
+    color: hsl(5, 0%, 0%);
+}
+
 
 /*------------------------------------------------------------
 ## lineup-artists
