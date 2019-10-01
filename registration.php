@@ -208,15 +208,16 @@
                                 <input id="teamleadercontact" type="number" placeholder="Leader Contact">
                             </div><!-- col-6 -->
 
-
-                            <div class="col-12 col-md-6">
-                                <input id="contact" type="number" placeholder="Your Phone">
-                            </div>
                             <div class="col-12 col-md-6">
                                 <input id="teamMem" type="number" placeholder="Number of Team Members">
                             </div>
                             <div class="col-12">
                                 <input id="college" type="text" placeholder="College Name">
+                            </div>
+                            <div class="col-12">
+                                <textarea id="teamDetails" name="name" rows="8" cols="80" placeholder="Enter your team member names,their contact, College Id/Roll number branch year details etc and these will be verified on spotName of Member phone roll number otherDetails,
+                                Name of Member phone roll number otherDetails  
+                                "></textarea>
                             </div>
                             <div class="col-12 p-2 submit
                              flex justify-content-center">
@@ -238,8 +239,6 @@
                             <div class="col-12 col-md-6">
                                 <input id="emailS" type="email" placeholder="Your email">
                             </div><!-- col-6 -->
-
-
                             <div class="col-12 col-md-6">
                                 <input id="contactS" type="number" placeholder="Your Phone">
                             </div>
@@ -300,6 +299,7 @@
     </footer><!-- site-footer -->
 
     <script type='text/javascript' src='js/jquery.js'></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
     <script type='text/javascript' src='js/swiper.min.js'></script>
