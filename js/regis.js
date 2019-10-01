@@ -3,8 +3,9 @@ var culTeam,culSolo,culTeamDiv,culSoloDiv;
 var techTeam,techSolo,techTeamDiv,techSoloDiv;
 var literaryTeam,literarySolo,literaryTeamDiv,literarySoloDiv;
 var gamingTeam,gamingSolo,gamingTeamDiv,gamingSoloDiv;
-var regisForm,regisFormSolo,name,email,contact,college,regisButton,teamMem;
+var regisForm,regisFormSolo,name,leaderName,email,contact,college,regisButton,teamMem,teamDetails;
 var nameS,emailS,contactS,regisButtonSolo,collegeS;
+var eventName;
 
 window.onload = function(){
 
@@ -36,7 +37,8 @@ window.onload = function(){
 	regisFormSolo =document.getElementById("regisFormSolo");
 	name = document.getElementById('name');
 	email = document.getElementById("email");
-	contact = document.getElementById("contact");
+	contact = document.getElementById("teamleadercontact");
+	leaderName = document.getElementById("teamleader");
 	college = document.getElementById("college");
 	nameS = document.getElementById('nameS');
 	emailS = document.getElementById("emailS");
@@ -45,6 +47,7 @@ window.onload = function(){
 	regisButton = document.getElementById("regisButton");
 	regisButtonSolo = document.getElementById("regisButtonS");
 	teamMem = document.getElementById("teamMem");
+	teamDetails = document.getElementById('teamDetails');
 
 	teamsolo.style.display = "none";
 	culTeamDiv.style.display = "none";
@@ -93,7 +96,10 @@ function formRegistration(){
 		// closeAllDivs();
 		regisForm.style.display = "none";
 	}else{
+
+		eventName = this.value;
 		regisForm.style.display = "block";
+		alert(eventName);
 	}
 }
 
@@ -102,6 +108,8 @@ function formRegistrationSolo(){
 		// closeAllDivs();
 		regisFormSolo.style.display = "none";
 	}else{
+		eventName = this.value;
+		alert(eventName);
 		regisFormSolo.style.display = "block";
 	}
 }
@@ -163,46 +171,47 @@ function event() {
 	
 }
 
-// function submitSolo(){
-// 	if(nameS.value == "" || emailS.value == "" || contactS.value == "" || collegeS.value == ""){
-// 		alert("One or More Fields is/are Missing !");
-// 	}else{
-// 		$.ajax({
-// 			url: "http://192.168.43.218/apratim2019/php/statusphp/datafetch.php",
-// 			type: "POST",
-// 			dataType: 'json',
-// 			data: ({"category":"solo","Type":"indoor"}),
-// 			success: function(data){
-// 				console.log(data);
-// 				if(!data.error){
-// 					errorText.style.display = 'none';
-// 					var select = document.getElementById('nodes');
-// 					for(var i = 0; i < data.length; i++){
-// 						var option = document.createElement("option");
-						
-// 						if(data[i].Status == "active"){
-// 							option.value = data[i].Nodename;
-// 							option.innerHTML = data[i].Nodename + " (active)";
-// 						}else{
-// 							option.value = data[i].Nodename;
-// 							option.innerHTML = data[i].Nodename;
-// 						}
-
-// 						select.appendChild(option);
-// 					}				
-// 				}else{
-// 					errorText.style.display = 'block';
-// 					errorText.innerHTML = data.error;
-// 				}
-// 			}
-// 		});		
-// 	}
-// }
+function submitSolo(){
+	if(nameS.value == "" || emailS.value == "" || contactS.value == "" || collegeS.value == "" || eventName == ""){
+		alert("One or More Fields is/are Missing !");
+	}else{
+		$.ajax({
+			url: "http://localhost/apratim2019/php/register.php",
+			type: "POST",
+			dataType: 'json',
+			data: ({"category":"solo","name":nameS.value,"email":emailS.value,"contact":contactS.value,"college":collegeS.value,"event":eventName}),
+			success: function(data){
+				console.log(data);
+				if(data.success){
+					alert(data.success);
+					window.location.href = 'index.html';	
+				}else{
+					alert(data.error);
+				}
+			}
+		});		
+	}
+}
 
 function submitTeam(){
-	alert("Development in Progress !");
+	if(name.value == "" || email.value == "" || contact.value == "" || college.value == "" || eventName == "" || teamMem.value == "" || teamDetails.value == "" || leaderName.value == ""){
+		alert("One or More Fields is/are Missing !");
+	}else{
+		$.ajax({
+			url: "http://localhost/apratim2019/php/register.php",
+			type: "POST",
+			dataType: 'json',
+			data: ({"category":"team","name":name.value,"email":email.value,"contact":contact.value,"college":college.value,"event":eventName,"teamMem":teamMem.value,"teamDetails":teamDetails.value,"leader":leaderName.value}),
+			success: function(data){
+				console.log(data);
+				if(data.success){
+					alert(data.success);
+					window.location.href = 'index.html';	
+				}else{
+					alert(data.error);
+				}
+			}
+		});
+	}
 }
 
-function submitSolo(){
-	alert("Development in Progress !");
-}
