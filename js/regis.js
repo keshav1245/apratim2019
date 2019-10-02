@@ -3,7 +3,7 @@ var culTeam,culSolo,culTeamDiv,culSoloDiv;
 var techTeam,techSolo,techTeamDiv,techSoloDiv;
 var literaryTeam,literarySolo,literaryTeamDiv,literarySoloDiv;
 var gamingTeam,gamingSolo,gamingTeamDiv,gamingSoloDiv;
-var regisForm,regisFormSolo,name,leaderName,email,contact,college,regisButton,teamMem,teamDetails;
+var regisForm,regisFormSolo,teamName,leaderName,email,contact,college,regisButton,teamMem,teamDetails;
 var nameS,emailS,contactS,regisButtonSolo,collegeS;
 var eventName;
 
@@ -35,8 +35,8 @@ window.onload = function(){
 
 	regisForm = document.getElementById('regisForm');
 	regisFormSolo =document.getElementById("regisFormSolo");
-	name = document.getElementById('name').value;
-	email = document.getElementById("email").value;
+	teamName = document.getElementById('name');
+	email = document.getElementById("email");
 	contact = document.getElementById("teamleadercontact");
 	leaderName = document.getElementById("teamleader");
 	college = document.getElementById("college");
@@ -195,13 +195,14 @@ function submitSolo(){
 }
 
 function submitTeam(){
-	if(name.value == "" || email.value == "" || contact.value == "" || college.value == "" || eventName == "" || teamMem.value == "" || teamDetails.value == "" || leaderName.value == ""){
+	if(teamName.value == "" || email.value == "" || contact.value == "" || college.value == "" || eventName == "" || teamMem.value == "" || teamDetails.value == "" || leaderName.value == ""){
 		alert("One or More Fields is/are Missing !");
 	}else{
+		console.log("submitting data");
 		$.ajax({
-			url: "http:/apratim.ccet.ac.in/php/register.php",
+			url: "/php/register.php",
 			type: "POST",
-			data: ({"category":"team","name":name.value,"email":email.value,"contact":contact.value,"college":college.value,"event":eventName,"teamMem":teamMem.value,"teamDetails":teamDetails.value,"leader":leaderName.value}),
+			data: ({"category":"team","name":teamName.value,"email":email.value,"contact":contact.value,"college":college.value,"event":eventName,"teamMem":teamMem.value,"teamDetails":teamDetails.value,"leader":leaderName.value}),
 			success: function(data){
 				console.log(data);
 				if(data.success){

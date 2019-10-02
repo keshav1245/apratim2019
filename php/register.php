@@ -21,7 +21,7 @@
 				$eventName = mysqli_real_escape_string($conn,$_POST['event']);
 				$college = mysqli_real_escape_string($conn,$_POST['college']);
 
-				if($stmt = $conn->prepare("INSERT INTO `registrations`(`name`, `email`, `contact`, `eventType`, `eventName`, `college`) VALUES (?,?,?,?,?,?)")){
+				if($stmt = $conn->prepare("INSERT INTO `registrations` (`name`, `email`, `contact`, `eventType`, `eventName`, `college`) VALUES (?,?,?,?,?,?)")){
 
 					$stmt->bind_param("ssisss",$name,$email,$contact,$eventType,$eventName,$college);
 
@@ -55,7 +55,7 @@
 				$teamDetails = mysqli_real_escape_string($conn,$_POST['teamDetails']);
 				$leader = mysqli_real_escape_string($conn,$_POST['leader']);
 
-				if($stmt = $conn->prepare("INSERT INTO `registrations`(`name`, `email`, `contact`, `eventType`, `eventName`, `teamMembers`, `teamLeader`, `college`, `teamDetails`) VALUES (?,?,?,?,?,?,?,?,?)")){
+				if($stmt = $conn->prepare("INSERT INTO `registrations` (`name`, `email`, `contact`, `eventType`, `eventName`, `teamMembers`, `teamLeader`, `college`, `teamDetails`) VALUES (?,?,?,?,?,?,?,?,?)")){
 
 					$stmt->bind_param("ssississs",$name,$email,$contact,$eventType,$eventName,$teamMem,$leader,$college,$teamDetails);
 					if($stmt->execute()){

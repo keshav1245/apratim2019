@@ -193,7 +193,7 @@
                     <div class="contact-form">
                         <div class="row">
                             <div class="col-12 col-md-6">
-                                <input id="name" type="text" placeholder="Your name">
+                                <input id="name" type="text" placeholder="Your Team Name">
                             </div><!-- col-4 -->
 
                             <div class="col-12 col-md-6">
@@ -215,9 +215,7 @@
                                 <input id="college" type="text" placeholder="College Name">
                             </div>
                             <div class="col-12">
-                                <textarea id="teamDetails" name="name" rows="8" cols="80" placeholder="Enter your team member names,their contact, College Id/Roll number branch year details etc and these will be verified on spotName of Member phone roll number otherDetails,
-                                Name of Member phone roll number otherDetails  
-                                "></textarea>
+                                <textarea id="teamDetails" name="teamDetails" rows="10" cols="100" placeholder="Enter any valid details, which will be verified on the spot."></textarea>
                             </div>
                             <div class="col-12 p-2 submit
                              flex justify-content-center">
@@ -233,7 +231,7 @@
                     <div class="contact-form">
                         <div class="row">
                             <div class="col-12 col-md-6">
-                                <input id="nameS" type="text" placeholder="Your name">
+                                <input id="nameS" type="text" placeholder="Your Name">
                             </div><!-- col-4 -->
 
                             <div class="col-12 col-md-6">
