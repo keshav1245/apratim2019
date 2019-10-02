@@ -35,8 +35,8 @@ window.onload = function(){
 
 	regisForm = document.getElementById('regisForm');
 	regisFormSolo =document.getElementById("regisFormSolo");
-	name = document.getElementById('name');
-	email = document.getElementById("email");
+	name = document.getElementById('name').value;
+	email = document.getElementById("email").value;
 	contact = document.getElementById("teamleadercontact");
 	leaderName = document.getElementById("teamleader");
 	college = document.getElementById("college");
@@ -175,10 +175,10 @@ function submitSolo(){
 	if(nameS.value == "" || emailS.value == "" || contactS.value == "" || collegeS.value == "" || eventName == ""){
 		alert("One or More Fields is/are Missing !");
 	}else{
+		console.log("submitting data");
 		$.ajax({
-			url: "http://localhost/apratim2019/php/register.php",
+			url: "/php/register.php",
 			type: "POST",
-			dataType: 'json',
 			data: ({"category":"solo","name":nameS.value,"email":emailS.value,"contact":contactS.value,"college":collegeS.value,"event":eventName}),
 			success: function(data){
 				console.log(data);
@@ -186,6 +186,7 @@ function submitSolo(){
 					alert(data.success);
 					window.location.href = 'index.html';	
 				}else{
+					console.log("error")
 					alert(data.error);
 				}
 			}
@@ -198,9 +199,8 @@ function submitTeam(){
 		alert("One or More Fields is/are Missing !");
 	}else{
 		$.ajax({
-			url: "http://localhost/apratim2019/php/register.php",
+			url: "http:/apratim.ccet.ac.in/php/register.php",
 			type: "POST",
-			dataType: 'json',
 			data: ({"category":"team","name":name.value,"email":email.value,"contact":contact.value,"college":college.value,"event":eventName,"teamMem":teamMem.value,"teamDetails":teamDetails.value,"leader":leaderName.value}),
 			success: function(data){
 				console.log(data);
