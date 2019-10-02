@@ -2,7 +2,7 @@
 
 	header('Content-Type: application/json');
 	$jsonArray = array();
-	$conn = mysqli_connect("localhost","root","","apratim2019");
+	$conn = mysqli_connect("localhost","apratim","apratim-2238","apratim_2k19");
 
 	if(!$conn){
 		$jsonArray['error'] = "Couldn't Connect with database";

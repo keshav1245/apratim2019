@@ -221,7 +221,7 @@
                             </div>
                             <div class="col-12 p-2 submit
                              flex justify-content-center">
-                                <input id="regisButton" type="submit" name="" value="REGISTER NOW!" class="btn">
+                                <input id="regisButton" type="button" name="" value="REGISTER NOW!" class="btn">
                             </div>
 
                         </div><!-- row -->
@@ -247,7 +247,7 @@
                             </div>
                             <div class="col-12 p-2 submit
                              flex justify-content-center">
-                                <input id="regisButtonS" type="submit" name="" value="REGISTER NOW!" class="btn">
+                                <input id="regisButtonS" type="button" name="" value="REGISTER NOW!" class="btn">
                             </div>
 
                         </div><!-- row -->
