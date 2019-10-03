@@ -194,6 +194,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6">
                                 <input id="name" type="text" placeholder="Your name">
+
                             </div><!-- col-4 -->
 
                             <div class="col-12 col-md-6">
@@ -218,6 +219,7 @@
                                 <textarea id="teamDetails" name="name" rows="8" cols="80" placeholder="Enter your team member names,their contact, College Id/Roll number branch year details etc and these will be verified on spotName of Member phone roll number otherDetails,
                                 Name of Member phone roll number otherDetails  
                                 "></textarea>
+
                             </div>
                             <div class="col-12 p-2 submit
                              flex justify-content-center">
@@ -234,6 +236,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6">
                                 <input id="nameS" type="text" placeholder="Your name">
+
                             </div><!-- col-4 -->
 
                             <div class="col-12 col-md-6">
