@@ -109,7 +109,7 @@ function formRegistrationSolo(){
 		regisFormSolo.style.display = "none";
 	}else{
 		eventName = this.value;
-		alert(eventName);
+		// alert(eventName);
 		regisFormSolo.style.display = "block";
 	}
 }
