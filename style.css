@@ -1792,20 +1792,23 @@ body {
 
 .contact-page .contact-form input[type="text"],
 .contact-page .contact-form input[type="email"],
+.contact-page .contact-form input[type="number"],
 .contact-page .contact-form textarea {
     width: 100%;
     padding: 14px 22px;
     margin-bottom: 30px;
     border: 0;
-    background: #f4f6f7;
-    color: #050505;
+    background: #fff;
+    color: black;
+    border: 2px solid black;
     outline: none;
 }
 
 .contact-page .contact-form input[type="text"]::placeholder,
 .contact-page .contact-form input[type="email"]::placeholder,
+.contact-page .contact-form input[type="number"]::placeholder,
 .contact-page .contact-form textarea::placeholder {
-    color: #7f7f7f;
+    color: #000;
     font-style: italic;
 }
 
@@ -1818,9 +1821,18 @@ body {
     padding: 15px 30px;
     margin-right: 20px;
     border-radius: 0;
+    background-color: #fff;
+    border: 2px solid black;
     font-weight: 600;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    transition: 0.3s;
+    /*background: -webkit-linear-gradient(#00d0ff, #25ffbf);*/
 }
+
+.contact-page .contact-form .submit .btn:hover{
+    background-color: #000;
+    color:#fff;
+    transition: 0.3s;
+} 
 
 /*------------------------------------------------------------
 # elements-page
