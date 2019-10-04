@@ -1,0 +1,186 @@
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-bar">
+            <div class="containe<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Apratim 2K19</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="../css/fontawesome-all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="../css/swiper.min.css">
+
+    <!-- Styles -->
+    r-fluid">
+                <div class="row align-items-center">
+                    <div class="col-10 col-lg-4">
+                        <h1 class="site-branding flex">
+                            <a href="index.html">APRATIM 2K19</a>
+                        </h1>
+                    </div>
+
+                    <div class="col-2 col-lg-8">
+                        <nav class="site-navigation">
+                            <div class="hamburger-menu d-lg-none">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div><!-- .hamburger-menu -->
+
+                            <ul>
+
+                                <li><a href="../index.html#sponsors">SPONSORS</a></li>
+                                <li><a href="../index.html#events">OUR EVENTS</a></li>
+                                <li><a href="../core.html">OUR CORE</a></li>
+                                <li><a href="../index.html#contact">CONTACT</a></li>
+                                <li><a href="../webTeam.html">WEB TEAM</a></li>
+                            </ul><!-- flex -->
+                        </nav><!-- .site-navigation -->
+                    </div><!-- .col-12 -->
+                </div><!-- .row -->
+            </div><!-- container-fluid -->
+        </div><!-- header-bar -->
+    </header><!-- .site-header -->
+
+    <div class="hero-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <img src="../images/cover.jpg" alt="logo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 text-center entry-header">
+                    <h2>Aqua Jet</h2>
+                </div><!-- .col-md-10 -->
+            </div>
+        </div><!-- .container -->
+    </div><!-- .hero-content -->
+
+    <div class="content-section2">
+        <div class="container">
+            <div class="row">
+
+               <div class="col-md-6 lineup-artists">
+                    <figure class="featured-image">
+                        <img src="../images/image-4.jpg" alt="">
+                                    <!-- <a href="#" class="box-link"> <img src="images/box.jpg" alt=""> </a> -->
+                    </figure>                   	
+                </div>
+                  <div class="col-md-6 lineup-artists-headline">
+                    <h2 class="entry-title">Problem Statment</h2>
+                Design and fabricate a single stage water rocket using a plastic container preferably a softbottle that uses a combination of pressurized air and water propulsion to complete a defined task.A launcher should also be constructed that could be launched.The Water rocket safely.</div>
+
+<div class="col-md-6 lineup-artists-headline">
+                    <h2 class="entry-title">Design Specification</h2>
+                    1.The Capacity of the plastic container to be used should be less than or equal to two Liters.
+                    2.Only water can be used as a propellant No other gas is allowed to be pressurized and provide thrust to the racket.
+                    3.The maximum pressure should not exceed 60 psi.
+                    4.Only the above given propellent should be used for launching.No other potential,kinetic,or any other form of energy will be permitted for the launch.
+                    5.The launcher must remain stationery on the ground while and after the launching of the racket.
+                    6.No component or body part of the rocket should get detached from the maiin frame during the flights of the rockets.If detached,the rocket will be disqualified.
+                    7.The flange and the mouth of thebottle can be used to hold the rocket while pressurizing.
+                    8.Upper tip of the rocket should be visible and marked red.
+                    9.No electronic device can be used.
+                    10.The launching mechanism should be such that partcipantsis enable to launch rocket safely from the launcher.  
+</div>
+
+<div class="col-md-6 lineup-artists-headline">
+                    <h2 class="entry-title">Safety Preecautions,Hints and Tips</h2>
+                    1.To keep rocket aerodynamically stable there is a rule of thumb that states that the center od darg should be 1-2 times the distance equal to rocket diameter,behind the Centre of Gravity.Where COD can be found by making a cardboarrd cut-off of the sideways view of the rocket and finding its center of gravity.
+                    2.To lower COD you can use wings to rise COG try using weights on the nose of the rocket.
+                    3.Be careful while experimenting with water rocket.Use of Excessive pressure might lead to an accident.
+                    4.Do not use mineral water bottles as they cannot withstand the high pressure.
+                    5.Don't use any metallic part as it can cause harm.
+                    6.Safety googles are advised to be worn by the competitors.
+            </div>
+<div class="col-md-6 lineup-artists-headline">
+                    <h2 class="entry-title">Disqualification</h2>
+                    Any of the following if satisfied may lead to disqualification of a team:
+                      1.Rocket found dangerous by organizers or judges.
+                      2.The rocket don't have a trigering safety launch from 1m from launch.
+
+
+                <div class="col-md-6 lineup-artists-headline">
+                    <h2 class="entry-title">Rules</h2>
+                    <ol>
+                        <li><p> Topics will be given on the spot.</p></li>
+                        <li><p> The team limit is 2-5 members.</p></li>
+                        <li><p> The time duration is 10 minutes for preparation and 2-4 minutes for execution.</p></li>
+                        <li><p> Only original ideas will be entertained.</p></li>
+                        <li><p> The Decision of the judges will be final.</p></li>
+                    </ol>
+                    <h2 class="entry-title">Contact</h2>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> Vivek : +91 84271 55574</p>
+                    <button class="register p-3 btn btn-outline-info text-center justify-content-center">REGISTER FOR EVENTS</button>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="site-footer">
+        <div class="footer-cover-title flex justify-content-center align-items-center">
+            <h2 id="contact">APRATIM</h2>
+        </div><!-- .site-footer -->
+
+        <div class="footer-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="entry-title">
+                            <a href="index.html">APRATIM 2K19</a>
+                        </div><!-- entry-title -->
+
+                        <div class="entry-mail">
+                            <a href="index.html">apratim@ccet.ac.in</a>
+                        </div><!-- .entry-mail -->
+
+                        <div class="copyright-info">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | Website Committee CCET Sector 26, Images from Unsplash
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </div><!-- copyright-info -->
+
+                        <div class="footer-social">
+                            <ul class="flex justify-content-center align-items-center">
+                                <li><a href="https://www.facebook.com/apratimccet/"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/ccetapratim/"><i
+                                            class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div><!-- footer-social -->
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </div><!-- footer-content-wrapper -->
+    </footer><!-- site-footer -->
+
+    <script type='text/javascript' src='../js/jquery.js'></script>
+    <script type='text/javascript' src='../js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='../js/swiper.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='../js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='../js/custom.js'></script>
+</body>
+
+</html>
