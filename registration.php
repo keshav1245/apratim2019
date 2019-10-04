@@ -109,6 +109,11 @@
                     <option value="street play">STREET PLAY</option>
                     <option value="fusion band">FUSION BAND</option>
                     <option value="folk dance">FOLK DANCE</option>
+                    <option value="fashion show">FASHION SHOW</option>
+                    <option value="rangoli making">RANGOLI MAKING</option>
+                    <option value="tattoo making">TATTOO MAKING</option>
+                    <option value="collage making">COLLAGE MAKING</option>
+                    <option value="face painting">FACE PAINTING</option>
                 </select>
             </div>
 
