@@ -183,7 +183,7 @@
                 <select id="categoryGamingTeam" class="col-md-6 bg-light text-dark border-dark p-2">
                     <option class="bg-light text-dark border-dark p-2" value="">Click to choose</option>
                     <option value="pubg">PUBG</option>
-                    <option value="forza">Forza Motorsport</option>
+                    <option value="csgo">Counter Strike</option>
                 </select>
             </div>
             <div id="gamingSolo" class="row col-md-12 lineup-artists-headline">
