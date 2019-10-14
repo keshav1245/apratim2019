@@ -191,6 +191,7 @@
                 <select id="categoryGamingSolo" class="col-md-6 bg-light text-dark border-dark p-2">
                     <option class="bg-light text-dark border-dark p-2" value="">Click to choose</option>
                     <option value="fifa">FIFA</option>
+                    <option value="tekken7">TEKKEN 7</option>
                 </select>
             </div>
             <div id="regisForm" class=" contact-page">
