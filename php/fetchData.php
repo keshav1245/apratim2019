@@ -2,7 +2,7 @@
 
 	header('Content-Type: text/csv; charset=utf-8');  
 	header('Content-Disposition: attachment; filename=registrations.csv');
-	$conn = mysqli_connect("localhost","apratim","apratim-2238","apratim_2k19");
+	$conn = mysqli_connect("localhost","","","apratim_2k19");
 
 	if(!$conn){
 		echo "Error Connecting to database !";
