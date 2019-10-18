@@ -151,7 +151,7 @@
                 <h2 class="entry-title col-md-6">Literary-Team Events : </h2>
                 <select id="categoryLiteraryTeam" class="col-md-6 bg-light text-dark border-dark p-2">
                     <option class="bg-light text-dark border-dark p-2" value="">Click to choose</option>
-                    <option value="group discussion">GROUP DISCUSSION</option>
+                    
                     <option value="highQ">HIGHQ</option>
                 </select>
             </div>
@@ -159,6 +159,7 @@
                 <h2 class="entry-title col-md-6">Literary-Solo Events : </h2>
                 <select id="categoryLiterarySolo" class="col-md-6 bg-light text-dark border-dark p-2">
                     <option class="bg-light text-dark border-dark p-2" value="">Click to choose</option>
+                    <option value="group discussion">GROUP DISCUSSION</option>
                     <option value="conventional debate">CONVENTIONAL DEBATE</option>
                     <option value="just a minute">JUST A MINUTE(JAM)</option>
                     <option value="terribly tiny tales">TERRIBLY TINY TALES</option>
@@ -175,6 +176,8 @@
                     <option value="mono act">MONO ACT</option>
                     <option value="solo singing">SOLO SINGING</option>
                     <option value="duet dance">DUET DANCE</option>
+                    <option value="poetry">POETRY</option>
+                    <option value="standUpComedy">Stand Up Comedy</option>
                 </select>
             </div>
 
