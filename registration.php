@@ -124,7 +124,7 @@
                     <option value="tech hunt">TECH HUNT</option>
                     <option value="coding relay">CODING RELAY</option>
                     <option value="ui design">UI DESIGN</option>
-                    <option value="quizCSE">QUIZ(CSE)</option>
+                    <option value="quizCSE">KBC QUIZ(CSE)</option>
                     <option value="code in the dark">CODE IN THE DARK</option>
                     <option value="line follower">LINE FOLLOWER</option>
                     <option value="robo soccer">ROBO SOCCER</option>
