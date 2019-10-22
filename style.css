@@ -737,7 +737,10 @@ body {
 ------------------------------------------------------------*/
 .next-event-slider-wrap {
     position: relative;
+    padding:5% 10%;
 }
+
+
 
 .next-event-slider {
     margin-top: 110px;
@@ -2076,7 +2079,16 @@ body {
 .icon-box-3 .entry-header::before {
     content: "03.";
 }
-
+@media only screen and (max-width: 1500px) {
+    .entry-content{
+        height:150px !important;
+    }
+  }
+@media only screen and (min-width: 1501px) {
+    .entry-content{
+        height:250px !important;
+}
+}
 
 
 
