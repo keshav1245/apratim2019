@@ -919,6 +919,7 @@ body {
 
 .home-page-last-news-wrap .eventList :hover{
     background-color: #ffbb33;
+    
 }
 
 /*------------------------------------------------------------
@@ -1946,6 +1947,12 @@ body {
     display: block;
     padding: 48px;
     background: #fff;
+}
+
+.gallery-image:hover{
+    box-shadow: 2px 4px 11px 3px #45a88f;
+    border:2px dashed #45a88f;
+    transition: box-shadow 0.3s;
 }
 
 .tabs-container .tab-content .entry-header {
